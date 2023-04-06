@@ -1,0 +1,66 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@semantic-release/changelog > lodash':
+        patched: '2023-04-06T05:11:04.464Z'
+    - semantic-release > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - vsce > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - '@commitlint/cli > @commitlint/load > lodash':
+        patched: '2023-04-06T05:11:04.464Z'
+    - '@commitlint/config-conventional > conventional-changelog-conventionalcommits > lodash':
+        patched: '2023-04-06T05:11:04.464Z'
+    - commitizen > inquirer > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - semantic-release-vsce > vsce > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-commits-parser > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - '@commitlint/cli > @commitlint/load > @commitlint/resolve-extends > lodash':
+        patched: '2023-04-06T05:11:04.464Z'
+    - cz-conventional-changelog > commitizen > inquirer > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - '@commitlint/cli > @commitlint/lint > @commitlint/parse > conventional-commits-parser > lodash':
+        patched: '2023-04-06T05:11:04.464Z'
+    - '@commitlint/cli > @commitlint/lint > @commitlint/rules > @commitlint/ensure > lodash':
+        patched: '2023-04-06T05:11:04.464Z'
+    - commitizen > cz-conventional-changelog > commitizen > inquirer > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - lerna > @lerna/publish > @lerna/prompt > inquirer > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-recommended-bump > conventional-commits-parser > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/prompt > inquirer > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/conventional-commits > conventional-recommended-bump > conventional-commits-parser > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - lerna > @lerna/publish > @lerna/npm-publish > @lerna/otplease > @lerna/prompt > inquirer > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - lerna > @lerna/publish > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - cz-conventional-changelog > commitizen > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - vsce > cheerio > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - commitizen > cz-conventional-changelog > commitizen > lodash:
+        patched: '2023-04-06T05:11:04.464Z'
+    - semantic-release-vsce > vsce > cheerio > lodash:
+        patched: '2023-04-06T05:11:04.464Z'

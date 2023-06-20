@@ -8,7 +8,7 @@
 	"private": false,
 	"main": "dist/index.js",
 	"dependencies": {
-		"cross-spawn": "^6.0.5",
+		"cross-spawn": "^7.0.0",
 		"diff-match-patch": "^1.0.4",
 		"loglevel": "^1.6.7",
 		"rxjs": "^6.4.0",

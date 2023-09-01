@@ -1,0 +1,31 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - cz-conventional-changelog > commitizen > cz-conventional-changelog > @commitlint/load > lodash:
+        patched: '2023-09-01T17:52:39.750Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          cz-conventional-changelog > commitizen > cz-conventional-changelog >
+          @commitlint/load > lodash
+    - cz-conventional-changelog > commitizen > cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
+        patched: '2023-09-01T17:52:39.750Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          cz-conventional-changelog > commitizen > cz-conventional-changelog >
+          @commitlint/load > @commitlint/resolve-extends > lodash
+    - commitizen > cz-conventional-changelog > commitizen > cz-conventional-changelog > @commitlint/load > lodash:
+        patched: '2023-09-01T17:52:39.750Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          commitizen > cz-conventional-changelog > commitizen >
+          cz-conventional-changelog > @commitlint/load > lodash
+    - commitizen > cz-conventional-changelog > commitizen > cz-conventional-changelog > @commitlint/load > @commitlint/resolve-extends > lodash:
+        patched: '2023-09-01T17:52:39.750Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          commitizen > cz-conventional-changelog > commitizen >
+          cz-conventional-changelog > @commitlint/load >
+          @commitlint/resolve-extends > lodash

@@ -10,9 +10,9 @@
 		"commitizen": "^4.2.2",
 		"cz-conventional-changelog": "^3.3.0",
 		"husky": "^4.3.6",
-		"lerna": "^3.16.4",
+		"lerna": "^6.5.0",
 		"semantic-release": "^17.3.1",
-		"semantic-release-vsce": "^3.0.1",
+		"semantic-release-vsce": "^4.0.0",
 		"vsce": "^1.83.0"
 	},
 	"engines": {

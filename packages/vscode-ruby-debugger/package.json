@@ -22,7 +22,7 @@
 		"watch": "yarn compile --sourcemap --watch"
 	},
 	"dependencies": {
-		"vscode-debugadapter": "^1.35.0",
+		"vscode-debugadapter": "^1.51.0",
 		"vscode-debugprotocol": "^1.35.0",
 		"xmldom": "^0.1.27"
 	},

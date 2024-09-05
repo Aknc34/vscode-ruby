@@ -35,14 +35,14 @@
 		"wingrunr21.vscode-ruby"
 	],
 	"dependencies": {
-		"async": "^2.6.1",
+		"async": "^3.0.0",
 		"default-shell": "^1.0.1",
-		"execa": "^2.0.3",
+		"execa": "^2.1.0",
 		"language-server-ruby": "^0.28.1",
 		"lodash": "^4.17.15",
 		"minimatch": "^3.0.4",
 		"ruby-method-locate": "^0.0.6",
-		"vscode-languageclient": "^7.0.0"
+		"vscode-languageclient": "^8.1.0"
 	},
 	"devDependencies": {
 		"@types/execa": "^2.0.0",

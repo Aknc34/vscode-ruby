@@ -39,7 +39,7 @@
 		"default-shell": "^1.0.1",
 		"execa": "^2.0.3",
 		"language-server-ruby": "^0.28.1",
-		"lodash": "^4.17.15",
+		"lodash": "^4.17.23",
 		"minimatch": "^3.0.4",
 		"ruby-method-locate": "^0.0.6",
 		"vscode-languageclient": "^7.0.0"
